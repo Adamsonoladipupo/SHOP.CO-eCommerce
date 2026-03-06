@@ -3,6 +3,7 @@ import NavBar from "../component/navbar/NavBar"
 import LandingPage from "../component/pages/LandingPage"
 import Footer from "../component/footer/Footer"
 import Products from "../component/product/products"
+import HeroSection from "../component/heroSection/HeroSection"
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
     {
         path: "/products",
         element: <Products/>
+    },
+    {
+        path:"/herosection",
+        element: <HeroSection/>
     }
 ])
 
