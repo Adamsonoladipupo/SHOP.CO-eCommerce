@@ -1,0 +1,19 @@
+*{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main_container{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+.main_container span{
+    font-size: 16px;
+}
+.main_container span p a{
+    color: #ffffff;
+}
