@@ -5,6 +5,7 @@ import Footer from "../component/footer/Footer"
 import Products from "../component/product/products"
 import HeroSection from "../component/heroSection/HeroSection"
 import ClothesBrands from "../component/ClothesBrands/ClothesBrands"
+import HappyCustomers from "../component/happyCustomers/HappyCustomers"
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
     {
         path:"/brands",
         element: <ClothesBrands/>
+    },
+    {
+        path: "/happycustomers",
+        element: <HappyCustomers/>
     }
 ])
 
