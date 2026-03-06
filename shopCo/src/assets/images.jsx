@@ -5,6 +5,11 @@ import paypal from '../assets/images/paypal.png'
 import masterCard from '../assets/images/masterCard.png'
 import googlePay from '../assets/images/googlePay.png'
 import logo from '../assets/images/SHOP.CO.png'
+import calvin from '../assets/images/calvin.png'
+import gucci from '../assets/images/gucci.png'
+import prada from '../assets/images/prada.png'
+import versace from '../assets/images/versace.png'
+import zara from '../assets/images/zara.png'
 
 const images = {
     hero1,
@@ -13,6 +18,11 @@ const images = {
     paypal,
     masterCard,
     googlePay,
-    logo
+    logo,
+    calvin,
+    gucci,
+    prada,
+    versace,
+    zara
 }
 export default images
