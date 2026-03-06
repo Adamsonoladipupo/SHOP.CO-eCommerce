@@ -4,6 +4,7 @@ import Footer from "../footer/Footer";
 import Products from "../product/products";
 import Offer from "../offers/Offer";
 import HeroSection from "../heroSection/HeroSection";
+import ClothesBrands from "../ClothesBrands/ClothesBrands";
 
 const LandingPage =() =>{
     return(
@@ -16,6 +17,9 @@ const LandingPage =() =>{
             </div>
             <div>
                 <HeroSection/>
+            </div>
+            <div>
+                <ClothesBrands/>
             </div>
             <div>
                 <Products/>

@@ -1,0 +1,22 @@
+:root {
+    --gray_col: #F0F0F0;
+    --gray_col_20: #c3c3c3;
+    --gray_col_40: #a1a1a1;
+    --gray_col_60: #4f4f4f;
+}
+*{
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #000000;
+    position: relative;
+    margin-top: -100px;
+}
