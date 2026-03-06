@@ -12,7 +12,7 @@ a {
 }
 .main_container {
     padding: 0px 100px;
-    padding-top: 120px;
+    padding-top: 120px; 
     margin-top: -70px;
     background-color: var(--gray_col);
     position: relative;
