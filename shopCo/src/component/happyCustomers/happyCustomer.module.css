@@ -12,13 +12,13 @@
     box-sizing:border-box ;
 }
 .main_container {
-    padding: 0px 100px;
+    padding: 30px 100px;
 }
 .main_container .top_container {
     display: flex;
     align-self: center;
     justify-content: space-between;
-    margin: 30px 0px;
+    margin-bottom: 30px;
 }
 .main_container .top_container span {
     cursor: pointer;
