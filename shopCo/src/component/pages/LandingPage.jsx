@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../pages/landingPage.module.css"
 import NavBar from "../navbar/NavBar";
 import Footer from "../footer/Footer";
 import Products from "../product/products";
@@ -6,6 +7,9 @@ import Offer from "../offers/Offer";
 import HeroSection from "../heroSection/HeroSection";
 import ClothesBrands from "../ClothesBrands/ClothesBrands";
 import HappyCustomers from "../happyCustomers/HappyCustomers";
+import NewArrivals from "../newArrivals/NewArrivals";
+import TopSelling from "../topSelling/TopSelling";
+
 
 const LandingPage =() =>{
     return(
@@ -23,8 +27,15 @@ const LandingPage =() =>{
                 <ClothesBrands/>
             </div>
             <div>
-                <Products/>
+                <NewArrivals/>
             </div>
+            <hr className={styles.hr}/>
+            <div>
+                <TopSelling/>
+            </div>
+            {/* <div>
+                <Products/>
+            </div> */}
             <div>
                 <HappyCustomers/>
             </div>
