@@ -34,5 +34,17 @@ const Verified = () => {
     );
 }
 
+const ArrowLeft = () => {
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 12h-15m0 0l5.625-6M4.5 12l5.625 6"/></svg>
+    );
+}
 
-export { Facebook, Github, Twitter, Instagram, Star, Verified};
+const ArrowRight = () =>{
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"/></svg>
+    );
+}
+
+
+export { Facebook, Github, Twitter, Instagram, Star, Verified, ArrowLeft, ArrowRight};
