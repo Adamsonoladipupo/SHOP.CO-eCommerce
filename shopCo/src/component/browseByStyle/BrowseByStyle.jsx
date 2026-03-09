@@ -7,18 +7,22 @@ const BrowseByStyle = () => {
         <div className={styles.main_container}>
             <h2>BROWSE BY dress STYLE</h2>
             <div className={styles.clothe_styles}>
-                <span className="style">
+                <div className="style">
+                    <span>Casual</span>
                     <img src={images.casualStyle} alt="casual" />
-                </span>
-                <span className="style">
+                </div>
+                <div className="style">
+                    <span>Formal</span>
                     <img src={images.formalStyle} alt="formal" />
-                </span>
-                <span className="style">
+                </div>
+                <div className="style">
+                    <span>Party</span>
                     <img src={images.partyStyle} alt="party" />
-                </span>
-                <span className="style">
+                </div>
+                <div className="style">
+                    <span>Gym</span>
                     <img src={images.gymStyle} alt="gym" />
-                </span>
+                </div>
             </div>
         </div>
         </>

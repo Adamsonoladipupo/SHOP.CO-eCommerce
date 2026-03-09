@@ -13,5 +13,9 @@
 }
 .main_container{
     padding: 20px 100px;
-    
+    background-color: var(--gray_col);
+}
+.main_container h2{
+    font-size: 48px;
+    font-weight: bolder;
 }
