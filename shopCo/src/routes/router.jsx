@@ -8,6 +8,7 @@ import ClothesBrands from "../component/ClothesBrands/ClothesBrands"
 import HappyCustomers from "../component/happyCustomers/HappyCustomers"
 import NewArrivals from "../component/newArrivals/NewArrivals"
 import TopSelling from "../component/topSelling/TopSelling"
+import BrowseByStyle from "../component/browseByStyle/BrowseByStyle"
 
 const router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
     {
         path: "/topselling",
         element: <TopSelling/>
+    },
+    {
+        path: "/browsebystyle",
+        element: <BrowseByStyle/>
     }
 ])
 

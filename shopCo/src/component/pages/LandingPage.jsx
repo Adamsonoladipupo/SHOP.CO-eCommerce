@@ -9,6 +9,7 @@ import ClothesBrands from "../ClothesBrands/ClothesBrands";
 import HappyCustomers from "../happyCustomers/HappyCustomers";
 import NewArrivals from "../newArrivals/NewArrivals";
 import TopSelling from "../topSelling/TopSelling";
+import BrowseByStyle from "../browseByStyle/BrowseByStyle";
 
 
 const LandingPage =() =>{
@@ -32,6 +33,9 @@ const LandingPage =() =>{
             <hr className={styles.hr}/>
             <div>
                 <TopSelling/>
+            </div>
+            <div>
+                <BrowseByStyle/>
             </div>
             {/* <div>
                 <Products/>

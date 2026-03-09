@@ -4,7 +4,7 @@ const BrowseByStyle = () => {
     return (
         <>
         <div className={styles.main_container}>
-
+            
         </div>
         </>
     );
