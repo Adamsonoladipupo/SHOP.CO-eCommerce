@@ -14,8 +14,9 @@
 .main_container{
     padding: 20px 100px;
     background-color: var(--gray_col);
-    display: grid;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .main_container h2{
@@ -25,13 +26,7 @@
 .main_container .clothe_styles{
     padding: 30px;
     display: grid;
-    grid-template-columns: 400px, 680px;
-    grid-template-rows: 280px;
+    grid-template-columns: 400px 680px;
+    grid-template-rows: 280px 280px;
     gap: 20px;
-}
-.main_container .clothe_styles .small_width{
-
-}
-.main_container .clothe_styles .large_width{
-
 }
