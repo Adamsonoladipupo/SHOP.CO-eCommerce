@@ -11,6 +11,10 @@ import prada from '../assets/images/prada.png'
 import versace from '../assets/images/versace.png'
 import zara from '../assets/images/zara.png'
 import clothe1 from '../assets/images/clothe1.png'
+import casualStyle from '../assets/images/casual.png'
+import formalStyle from '../assets/images/formal.png'
+import partyStyle from '../assets/images/party.png'
+import gymStyle from '../assets/images/gym.png'
 
 const images = {
     hero1,
@@ -24,6 +28,6 @@ const images = {
     gucci,
     prada,
     versace,
-    zara, clothe1
+    zara, clothe1, casualStyle, formalStyle, partyStyle, gymStyle
 }
 export default images
