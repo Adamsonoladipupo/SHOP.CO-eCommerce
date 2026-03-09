@@ -7,21 +7,17 @@ const BrowseByStyle = () => {
         <div className={styles.main_container}>
             <h2>BROWSE BY dress STYLE</h2>
             <div className={styles.clothe_styles}>
-                <div className="style">
+                <div className={`${styles.style} ${styles.small_width}`} style={{backgroundImage:`url(${images.casualStyle})`}}>
                     <span>Casual</span>
-                    <img src={images.casualStyle} alt="casual" />
                 </div>
-                <div className="style">
+                <div className={`${styles.style} ${styles.large_width}`} style={{backgroundImage:`url(${images.formalStyle})`}}>
                     <span>Formal</span>
-                    <img src={images.formalStyle} alt="formal" />
                 </div>
-                <div className="style">
+                <div classNam={`${styles.style} ${styles.small_width}`} style={{backgroundImage:`url(${images.partyStyle})`}}>
                     <span>Party</span>
-                    <img src={images.partyStyle} alt="party" />
                 </div>
-                <div className="style">
+                <div className={`${styles.style} ${styles.large_width}`} style={{backgroundImage:`url(${images.gymStyle})`}}>
                     <span>Gym</span>
-                    <img src={images.gymStyle} alt="gym" />
                 </div>
             </div>
         </div>

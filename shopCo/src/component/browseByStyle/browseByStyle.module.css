@@ -13,9 +13,24 @@
 }
 .main_container{
     padding: 20px 100px;
-    background-color: var(--gray_col);
+    background-color: var(--gray_col)
 }
 .main_container h2{
     font-size: 48px;
     font-weight: bolder;
 }
+.main_container .clothe_styles{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 400px, 680px;
+    grid-template-rows: 280px;
+    gap: 20px;
+}
+/* .main_container .clothe_styles .small_width{
+    width: 405px;
+    height: 280px;
+}
+.main_container .clothe_styles .large_width{
+    width: 685px;
+    height: 280px;
+} */
