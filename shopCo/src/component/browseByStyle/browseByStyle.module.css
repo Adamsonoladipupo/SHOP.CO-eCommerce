@@ -12,12 +12,13 @@
     box-sizing:border-box ;
 }
 .main_container{
-    padding: 20px 100px;
+    margin: 20px 100px;
     background-color: var(--gray_col);
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border-radius: 40px;
+    padding: 20px 0px;
 }
 .main_container h2{
     font-size: 48px;
@@ -26,7 +27,11 @@
 .main_container .clothe_styles{
     padding: 30px;
     display: grid;
-    grid-template-columns: 400px 680px;
+    grid-template-columns: 680px 400px;
     grid-template-rows: 280px 280px;
     gap: 20px;
+}
+.main_container .clothe_styles .style {
+    border-radius: 20px;
+    padding: 20px;
 }

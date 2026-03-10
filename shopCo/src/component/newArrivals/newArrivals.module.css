@@ -28,9 +28,11 @@
 }
 .main_container .new_arrivals{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: start;
     justify-content: space-between;
     margin: 20px 0px;
+    gap: 12px;
 }
 .main_container .new_arrivals .arrival {
     display: flex;
@@ -47,6 +49,7 @@
 .main_container .new_arrivals .arrival h3{
     font-size: 20px;
     font-weight: normal;
+    width: 250px;
 }
 .price {
     font-size: 24px;
