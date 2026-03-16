@@ -35,7 +35,6 @@ a {
 .news_letter h1{
     font-size: 35px;
     color: #ffffff;
-    /* min-width: 500px; */
 }
 .news_letter_input {
     display: flex;
@@ -160,5 +159,8 @@ a {
         gap: 20px;
         padding: 20px 30px;
         
+    }
+    .news_letter h1{
+        font-size: 28px;
     }
 }

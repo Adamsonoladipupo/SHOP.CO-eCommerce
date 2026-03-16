@@ -12,6 +12,7 @@ import TopSelling from "../topSelling/TopSelling";
 import BrowseByStyle from "../browseByStyle/BrowseByStyle";
 
 
+
 const LandingPage =() =>{
     return(
         <>
@@ -37,9 +38,6 @@ const LandingPage =() =>{
             <div>
                 <BrowseByStyle/>
             </div>
-            {/* <div>
-                <Products/>
-            </div> */}
             <div>
                 <HappyCustomers/>
             </div>

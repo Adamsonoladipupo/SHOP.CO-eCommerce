@@ -57,3 +57,32 @@
     font-size: 16px;
     color: var(--gray_col_60);
 }
+
+@media (max-width: 1024px) {
+    .main_container {
+        padding: 20px 50px;
+    }
+    .main_container .customers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_container .customers .customer {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .main_container {
+        padding: 20px;
+    }
+    .main_container .customers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_container .customers .customer {
+        width: 100%;
+    }
+    .main_container .top_container h2{
+        font-size: 28px;
+        font-weight: bolder;
+    }
+}
